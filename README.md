@@ -1,1 +1,1 @@
-shit maker
+wallet create util
