@@ -1,0 +1,35 @@
+{
+  "name": "wtf-sol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0x0o0/wtf-sol.git"
+  },
+  "website": "https://github.com/0x0o0/wtf-sol.git",
+  "husky": {
+    "hooks": {
+      "post-merge": "hawkeye"
+    }
+  },
+  "hawkeye": {
+    "package.json": [
+      "npm install"
+    ]
+  },
+  "author": "0x0o0",
+  "license": "ISC",
+  "devDependencies": {
+    "vue": "^3.4.21"
+  },
+  "dependencies": {
+    "vue": "^3.4.21",
+    "noobcash": "^1.0.7",
+    "pepemaker": "^1.0.2"
+  },
+  "homepage": "https://github.com/0x0o0/wtf-sol#readme"
+}
